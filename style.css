@@ -1,0 +1,42 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #87CEEB;
+  margin: 0;
+}
+
+.pixel-art {
+  display: grid;
+  grid-template-columns: repeat(8, 20px); /* Ajuste o número de colunas conforme necessário */
+  grid-template-rows: repeat(10, 20px); /* Ajuste o número de linhas conforme necessário */
+  gap: 1px;
+}
+
+.pixel {
+  width: 20px;
+  height: 20px;
+}
+
+/* Cores dos pixels */
+.skin {
+  background-color: #FFCC99;
+}
+
+.hair {
+  background-color: #8B4513;
+}
+
+.shirt {
+  background-color: #FF69B4;
+}
+
+.pants {
+  background-color: #00008B;
+}
+
+.shoes {
+  background-color: #000;
+}
